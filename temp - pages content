@@ -1,0 +1,403 @@
+      <section class="lesson preview_lesson">
+        <article class="preview_the_unit">
+          <h1 class="preview_the_unit_heading"><span>Preview the unit</span></h1>
+          <div class="question question_a">
+            <div class="enumeration">a</div>
+            <p class="rubric_a">Discuss these questions with your classmates.</p>
+            <ul class="rubric_b">
+              <li>What qualities do you look for in a friend?</li>
+              <li>What is the best way to make a good first impression on a classmate? On a boss?</li>
+              <li>Look at the photo. What are the people doing? Why?</li>
+            </ul>
+          </div>
+          <div class="question question_b">
+            <div class="enumeration">b</div>
+            <p class="rubric_a">Discuss the Unit Question above with your classmates.</p>
+            <a class="audio_play audio_with_rubric"><span class="audio_icon"></span><span class="track_rubric">Listen to <em>The Q Classroom</em> to hear other answers.</span><span class="track_id">audio 1.2</span></a>
+          </div>
+          <div class="question question_c">
+            <div class="enumeration">c</div>
+            <p class="rubric_a">Look at the questionnaire. Choose the answer that makes each statement true for you.</p>
+            <div class="realia multiple_choice realia_001 interactivity interactivity_001">
+              <h1>Do You Make a Good First Impression?</h1>
+              <form>
+                <div class="custom_column">
+                  <div class="custom_question">
+                    <p class="custom_enumeration">1.</p>
+                    <p class="custom_rubric">When I talk to someone I don't know, ...</p>
+                    <label for="i001_1a"><input type="radio" name="i001_q1" value="i001_1a" id="i001_1a"/><span class="custom_enumeration">a.</span><span class="custom_answer">I feel uncomfortable.</span></label>
+                    <label for="i001_1b"><input type="radio" name="i001_q1" value="i001_1b" id="i001_1b"/><span class="custom_enumeration">b.</span><span class="custom_answer">I can usually find something to talk about.</span></label>
+                    <label for="i001_1c"><input type="radio" name="i001_q1" value="i001_1c" id="i001_1c"/><span class="custom_enumeration">c.</span><span class="custom_answer">I ask a lot of questions.</span></label>
+                  </div>
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">2.</p>
+                    <p class="custom_rubric">When I go to a store or a restaurant, the server or salesperson ...</p>
+                    <label for="i001_2a"><input type="radio" name="i001_q2" value="i001_2a" id="i001_2a"/><span class="custom_enumeration">a.</span><span class="custom_answer">usually serves me quickly.</span></label>
+                    <label for="i001_2b"><input type="radio" name="i001_q2" value="i001_2b" id="i001_2b"/><span class="custom_enumeration">b.</span><span class="custom_answer">often ignores me or keeps me waiting.</span></label>
+                    <label for="i001_2c"><input type="radio" name="i001_q2" value="i001_2c" id="i001_2c"/><span class="custom_enumeration">c.</span><span class="custom_answer">is often rude to me.</span></label>
+                  </div>
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">3.</p>
+                    <p class="custom_rubric">When I am sitting, I usually ...</p>
+                    <label for="i001_3a"><input type="radio" name="i001_q3" value="i001_3a" id="i001_a"/><span class="custom_enumeration">a.</span><span class="custom_answer">sit up straight.</span></label>
+                    <label for="i001_3b"><input type="radio" name="i001_q3" value="i001_3b" id="i001_3b"/><span class="custom_enumeration">b.</span><span class="custom_answer">do not sit up straight.</span></label>
+                    <label for="i001_3c"><input type="radio" name="i001_q3" value="i001_3c" id="i001_3c"/><span class="custom_enumeration">c.</span><span class="custom_answer">take up a lot of space.</span></label>
+                  </div>
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">4.</p>
+                    <p class="custom_rubric">When I need to get someone's attention, I ...</p>
+                    <label for="i001_4a"><input type="radio" name="i001_q4" value="i001_4a" id="i001_4a"/><span class="custom_enumeration">a.</span><span class="custom_answer">speak loudly or shout.</span></label>
+                    <label for="i001_4b"><input type="radio" name="i001_q4" value="i001_4b" id="i001_4b"/><span class="custom_enumeration">b.</span><span class="custom_answer">say, "excuse me" first.</span></label>
+                    <label for="i001_4c"><input type="radio" name="i001_q4" value="i001_4c" id="i001_4c"/><span class="custom_enumeration">c.</span><span class="custom_answer">tap the person on the arm or shoulder.</span></label>
+                  </div>
+
+                </div><!--end column-->
+                <div class="custom_column">
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">5.</p>
+                    <p class="custom_rubric">My friends and family talk to me about my manners ...</p>
+                    <label for="i001_5a"><input type="radio" name="i001_q5" value="i001_5a" id="i001_5a"/><span class="custom_enumeration">a.</span><span class="custom_answer">often.</span></label>
+                    <label for="i001_5b"><input type="radio" name="i001_q5" value="i001_5b" id="i001_5b"/><span class="custom_enumeration">b.</span><span class="custom_answer">sometimes.</span></label>
+                    <label for="i001_5c"><input type="radio" name="i001_q5" value="i001_5c" id="i001_5c"/><span class="custom_enumeration">c.</span><span class="custom_answer">never.</span></label>
+                  </div>
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">6.</p>
+                    <p class="custom_rubric">I usually speak ...</p>
+                    <label for="i001_6a"><input type="radio" name="i001_q6" value="i001_6a" id="i001_6a"/><span class="custom_enumeration">a.</span><span class="custom_answer">a little more formally than most people.</span></label>
+                    <label for="i001_6b"><input type="radio" name="i001_q6" value="i001_6b" id="i001_6b"/><span class="custom_enumeration">b.</span><span class="custom_answer">about the same as other people.</span></label>
+                    <label for="i001_6c"><input type="radio" name="i001_q6" value="i001_6c" id="i001_6c"/><span class="custom_enumeration">c.</span><span class="custom_answer">less formally than other people.</span></label>
+                  </div>
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">7.</p>
+                    <p class="custom_rubric">When I meet someone for the first time, ...</p>
+                    <label for="i001_7a"><input type="radio" name="i001_q7" value="i001_7a" id="i001_7a"/><span class="custom_enumeration">a.</span><span class="custom_answer">I do most of the talking.</span></label>
+                    <label for="i001_7b"><input type="radio" name="i001_q7" value="i001_7b" id="i001_7b"/><span class="custom_enumeration">b.</span><span class="custom_answer">I talk about half the time and listen half the day.</span></label>
+                    <label for="i001_7c"><input type="radio" name="i001_q7" value="i001_7c" id="i001_7c"/><span class="custom_enumeration">c.</span><span class="custom_answer">I listen and let the other person talk.</span></label>
+                  </div>
+
+                  <div class="custom_question">
+                    <p class="custom_enumeration">8.</p>
+                    <p class="custom_rubric">When people first meet me, they often think I am ...</p>
+                    <label for="i001_8a"><input type="radio" name="i001_q8" value="i001_8a" id="i001_8a"/><span class="custom_enumeration">a.</span><span class="custom_answer">very serious.</span></label>
+                    <label for="i001_8b"><input type="radio" name="i001_q8" value="i001_8b" id="i001_8b"/><span class="custom_enumeration">b.</span><span class="custom_answer">shy and a little nervous.</span></label>
+                    <label for="i001_8c"><input type="radio" name="i001_q8" value="i001_8c" id="i001_8c"/><span class="custom_enumeration">c.</span><span class="custom_answer">outgoing and friendly.</span></label>
+                    <label for="i001_8d"><input type="radio" name="i001_q8" value="i001_8d" id="i001_8d"/><span class="custom_enumeration">d.</span><span class="custom_answer">other.</span></label>
+                  </div>
+                </div><!--end column-->
+                <img src="artwork/Q_RW_SB3_U01_02.jpg"/>
+                <img src="artwork/Q_RW_SB3_U01_03.jpg"/>
+              </form>
+            </div><!--end realia-->
+          </div><!--end question-->
+          <div class="question question_d">
+            <div class="enumeration">d</div>
+            <p class="rubric_a">Look at your answers. Do you think you make a good first impression? Discuss your answers with a partner.</p>
+          </div><!--end question-->
+        </article><!--end preview_the_unit-->
+      </section><!--end preview_lesson-->
+
+      <section class="lesson reading_lesson">
+        <h1 class="reading_heading">Reading</h1>
+        <article class="reading_1 reading_article">
+          <h1 class="reading_x_heading"><span>Reading 1</span><span>How to make a strong first impression</h1>
+          <div class="article_chunk vocabulary_chunk">
+            <h2 class="article_chunk_heading"><span class="smallCapsCap">V</span>ocabulary</h2>
+            <div class="question question_na">
+              <p class="rubric_a">Here are some words from Reading 1. Read the sentences. Then match each bold word with its definition.</p>
+              <div class="matching interactivity interactivity_002 matching_2_col matching_2_col_001"><!--make this interactive-->
+                <ol class="static_column">
+                  <li>The child was afraid of the <strong>stranger</strong>. He feels more comfortable with people he knows.</li>
+                  <li>Our cooking teacher likes to <strong>demonstrate</strong> new things before we try them ourselves. Last week, he showed us how to make potato soup.</li>
+                  <li>People with <strong>confidence</strong> usually make better public speakers because they feel very comfortable standing in front of a lot of people.</li>
+                  <li>The academic <strong>standards</strong> at that university are high. It only accepts students with very good grades.</li>
+                  <li>Paris is a city that has a lot of <strong>cultural</strong> attractions for tourists to visit, such as museums and theaters.</li>
+                  <li>You should <strong>select</strong> what you wear to a job interview very carefully. What you wear to an interview is very important.</li>
+                  <li>I really <strong>appreciate</strong> my sister. She always gives me good advice.</li>
+                  <li>Andrew wanted to <strong>impress</strong> the interviewer, so he told her about the important project he worked on.</li>
+                  <li>To <strong>maintain</strong> your health, you should eat well and exercise.</li>
+                  <li>When you travel to other countries, you should learn about the culture first so you don't do or say anything <strong>offensive</strong> to people.</li>
+                </ol>
+                <ol class="movable_column">
+                  <li>(<em>adj.</em>) connected with art, music, or literature</li>
+                  <li>(<em>n.</em>) the feeling that you are sure about your own beliefs or abilities</li>
+                  <li>(<em>v.</em>) to make someone admire and respect you</li>
+                  <li>(<em>n.</em>) a level of quality that you use to compare things</li>
+                  <li>(<em>v.</em>) to choose someone or something from similar people or things</li>
+                  <li>(<em>n.</em>) a person you do not know</li>
+                  <li>(<em>v.</em>) to enjoy or to understand the value of someone or something</li>
+                  <li>(<em>adj.</em>) unpleasant or insulting</li>
+                  <li>(<em>v.</em>) to show or explain how to do something</li>
+                  <li>(<em>v.</em>) to continue to have something; to keep something at the same level</li>
+                </ol>
+              </div><!--end interactivity-->
+            </div><!--end question-->
+          </div><!--end vocabulary_chunk-->
+
+          <div class="article_chunk preview_reading_chunk">
+            <aside class="tip_for_success margin_tip">
+              <p>Before you read, look at the title and subtitles or headings. How is the text organized? Reading the title and subtitles can help you understand the main points.</p>
+            </aside>
+            <h2 class="article_chunk_heading"><span class="smallCapsCap">P</span>review <span class="smallCapsCap">R</span>eading <span class="smallCapsCap">1</span></h2>
+            <div class="question question_na">
+              <p class="rubric_a">This is a magazine article. It gives advice on how to make a good first impression. Read the title and headings. What ideas do you think the article will suggest as ways to get other people to like you?</p>
+              <p class="rubric_a">Choose your prediction.</p>
+              <form class="rubric_b checkbox_single interactivity interactivity_003">
+                <label for="i002_1a"><input type="radio" name="i002_q1" value="i002_1a" id="i002_1a"/><span>show people you are interested in them</span></label>
+                <label for="i002_1b"><input type="radio" name="i002_q1" value="i002_1b" id="i002_1b"/><span>try to impress other people with your stories</span></label>
+              </form>
+              <p class="rubric_a">Read the article.</p>
+              <a class="audio_play audio_with_rubric"><span class="audio_icon"></span><span class="track_rubric">Listen to audio version.</span><span class="track_id">audio 1.3</span></a>
+            </div><!--end question-->
+          </div><!--end preview_reading_chunk-->
+
+          <div class="article_chunk reading_chunk">
+            <div class="realia realia_002">
+              <h1>How to Make a Strong First Impression</h1>
+              <div class="cols">
+                <p>You've heard it before: You only have one chance to make a first impression. According to research, we have about ten seconds with <strong>strangers</strong> before they form an opinion of us.</p>
+                <h2>Body Language and Appearance</h2>
+                <p><strong>Demonstrate</strong> a good attitude with your body. When you first walk into a room, show <strong>confidence</strong>. Stand up straight and look other people in the eye. If you smile frequently, it will make other people more comfortable. They will think you are friendly.</p>
+                <p>Appearance is important. Several years ago, a professional colleague offered to meet me for lunch. I wore a sport coat and tie. He showed up in shorts and sandals. The message I received was: "Bill, meeting you is a rather ordinary experience. I don't need to present a businesslike appearance." Not surprisingly, that was the last time I met with him. True, <strong>standards</strong> for appropriate clothing have changed a lot. Maybe the best advice I can share came from someone I met. She said, "I don't dress for the job I have now; I dress for the job I want to have."</p>
+                <h2>Voice</h2>
+                <p>The way you speak also affects the first impression you make. Listeners judge our intelligence, our level of <strong>cultural</strong> knowledge, even our leadership ability by the words we <strong>select</strong>&ndash;and by how we say them. Your listeners hear your tone of voice before they begin listening to your words. Speak clearly and loudly enough so that people can hear you. Change the pitch of your voice to avoid a dull <span class="glossary_item">monotone<span class="glossary_term"><strong>monotone:</strong> a way of speaking in which the tone and volume remain the same.</span></span> Show expression in both your voice and your face. And try not to speak too quickly.</p>
+                <h2>Conversation Skills</h2>
+                <p>The greatest way to make a good first impression is to demonstrate that the other person, not you, is the center of attention. When you are only interested in talking about yourself, other people don't feel that you <strong>appreciate</strong> them. Show that you are interested in others. Then new acquaintances will want to see you again. Recently I went to a conference. At lunch, my wife and I sat with several people we didn't know. While most of the people made good impressions, one man did not. He talked about himself the entire time. No one else got a chance to speak. Unfortunately, he probably thought we were interested in his life story. We decided to avoid him all weekend. I like this definition of a bore: "Somebody who talks about himself so much that you don't get to talk about yourself."</p>
+                <p>You'll <strong>impress</strong> other people when you practice good listening skills. Give interested responses: "Hmmm ... interesting!" "Tell me more, please." "What did you do next?" Your partner will welcome your help in keeping the conversation going. You also show you're a good listener when you <strong>maintain</strong> steady eye contact. Think about how you feel when someone you are talking to looks around the room. You think the person would rather be talking to someone else. Try to use the name of the person you've just met frequently. "Judy, I like that suggestion." "Your vacation must have been exciting, Fred." You show that you have paid attention from the start, catching the name during the introduction. Equally important, you'll make conversations more personal by including the listener's name several times.</p>
+                <p>Finally, avoid making other people uncomfortable. Be careful with jokes. Something you think is funny may be <strong>offensive</strong> to others. You don't want to hurt someone's feelings. Also, don't disagree with someone you have just met. If you disagree too much in your first conversation, the other person may think you are just too different. When you know the person better, you can express another opinion.</p>
+              </div><!--end cols-->
+            </div><!--end realia-->
+          </div><!--end reading_chunk-->
+
+          <div class="article_chunk main_ideas_chunk">
+            <h2 class="article_chunk_heading"><span class="smallCapsCap">M</span>ain <span class="smallCapsCap">I</span>deas</h2>
+            <div class="question question_na">
+              <p class="rubric_a">Read the statements. Select <em>T</em> (true) or <em>F</em> (false), according to the reading.</p>
+              <div class="checkbox_single interactivity interactivity_004"><!--make this interactive-->
+                <form>
+                  <ol>
+                    <li>
+                      <label for="i003_1a"><input type="radio" name="i003_q1" value="i003_1a" id="i003_1a"/>T</label>
+                      <label for="i003_1b"><input type="radio" name="i003_q1" value="i003_1b" id="i003_1b"/>F</label>
+                      <p>Appearance is important in making first impressions.</p>
+                    </li>
+                    <li>
+                      <label for="i003_2a"><input type="radio" name="i003_q2" value="i003_2a" id="i003_2a"/>T</label>
+                      <label for="i003_2b"><input type="radio" name="i003_q2" value="i003_2b" id="i003_2b"/>F</label>
+                      <p>You should speak in a soft voice.</p>
+                    </li>
+                    <li>
+                      <label for="i003_3a"><input type="radio" name="i003_q3" value="i003_3a" id="i003_3a"/>T</label>
+                      <label for="i003_3b"><input type="radio" name="i003_q3" value="i003_3b" id="i003_3b"/>F</label>
+                      <p>People will like you better if you show interest in them.</p>
+                    </li>
+                    <li>
+                      <label for="i003_4a"><input type="radio" name="i003_q4" value="i003_4a" id="i003_4a"/>T</label>
+                      <label for="i003_4b"><input type="radio" name="i003_q4" value="i003_4b" id="i003_4b"/>F</label>
+                      <p>You should ask questions and make comments to show you are listening.</p>
+                    </li>
+                    <li>
+                      <label for="i003_5a"><input type="radio" name="i003_q5" value="i003_5a" id="i003_5a"/>T</label>
+                      <label for="i003_5b"><input type="radio" name="i003_q5" value="i003_5b" id="i003_5b"/>F</label>
+                      <p>It's a good idea to tell a few jokes when you meet someone for the first time.</p>
+                    </li>
+                  </ol>
+                </form>
+              </div><!--end interactivity-->
+            </div><!--end question-->
+          </div><!--end main_ideas_chunk-->
+
+          <div class="article_chunk details_chunk">
+            <h2 class="article_chunk_heading"><span class="smallCapsCap">D</span>etails</h2>
+            <div class="question question_na">
+              <p class="rubric_a">Answer these questions.</p>
+              <form class="textarea_line interactivity interactivity_005">
+                <ol class="numbered_rubric_b">
+                  <li>
+                    <p class="rubric_b">What are some ways you can make a good impression with your body language?</p>
+                    <textarea placeholder="type your answer..."></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">If you wear very casual clothing to a meeting, what message do you give?</p>
+                    <textarea placeholder="type your answer..."></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">How does the way you speak affect a listener's impression of you?</p>
+                    <textarea placeholder="type your answer..."></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">Why should you maintain eye contact with people when you talk with them?</p>
+                    <textarea placeholder="type your answer..."></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">What is one way to show you are paying attention?</p>
+                    <textarea placeholder="type your answer..."></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">Why should you avoid disagreeing with people you have just met?</p>
+                    <textarea placeholder="type your answer..."></textarea>
+                  </li>
+                </ol>
+              </form><!--end interactivity-->
+            </div><!--end question-->
+          </div><!--end details_chunk-->
+
+          <div class="article_chunk whatdoyouthink_chunk">
+            <aside class="tip_critical_thinking margin_tip">
+              <p>In What Do You Think?, you are asked to choose one question and write five to eight sentences. This means you have to <strong>explain</strong> your ideas. When you explain, you give a more complete answer and provide enough information so others can understand. <strong>Explaining</strong> ideas helps you understand and remember information better.</p>
+            </aside>
+            <h2 class="article_chunk_heading"><span class="smallCapsCap">W</span>hat <span class="smallCapsCap">D</span>o <span class="smallCapsCap">Y</span>ou <span class="smallCapsCap">T</span>hink?</h2>
+            <div class="question question_na">
+              <p class="rubric_a">Discuss the questions in a group. Then choose one question and write five to eight sentences in response.</p>
+              <form class="textarea_paragraph interactivity interactivity_006">
+                <ol class="numbered_rubric_b">
+                  <li>
+                    <p class="rubric_b">Are there any topics of conversation you should avoid when meeting someone for the first time? What are they?</p>
+                    <textarea></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">Why do you think that people are more interested in themselves than in other people?</p>
+                    <textarea></textarea>
+                  </li>
+                  <li>
+                    <p class="rubric_b">Do you agree that showing an interest in other people is the best way to make a good first impression? What other ways are there to make a good first impression?</p>
+                    <textarea></textarea>
+                  </li>
+                </ol>
+              </form>
+            </div><!--end question-->
+          </div><!--end whatdoyouthink_chunk-->
+
+          <div class="article_chunk skill_chunk">
+            <hgroup class="skill_chunk_heading">
+              <h2>Reading Skill</h2>
+              <h3>Identifying main ideas and supporting details</h3>
+              <a class="web_plus_icon"></a>
+            </hgroup>
+            <div class="skill_text">
+              <p>A paragraph is a group of sentences about the same topic. The <strong>main idea</strong> is usually given in the first sentence. This is called the <strong>topic sentence</strong>. The other sentences add details about the topic. They are called supporting sentences and contain <strong>supporting details</strong>, such as examples, explanations, facts, definitions, and reasons.</p>
+              <p>Identifying main ideas and supporting details is an important skill that will help you become a more effective reader. When you read, skim for main ideas and scan for details.</p>
+            </div>
+
+            <div class="question question_a">
+              <p class="rubric_a">Read the sentences from Reading 1. Choose <em>MI</em> for the main idea of the paragraph. Choose <em>SD</em> for the supporting details.<p>
+              <div class="checkbox_single interactivity"><!--make this interactive-->
+                <form>
+                  <ol>
+                    <li>
+                      <h4>Paragraph 4</h4>
+                      <ol>
+                        <li><label for="1a"><input type="radio" name="q1" value="1a" id="1a"/>Speak clearly and loudly enough so that people can hear you.</label></li>
+                        <li><label for="1b"><input type="radio" name="q1" value="1b" id="1b"/>The way you speak also affects the first impression you make.</label></li>
+                        <li><label for="1c"><input type="radio" name="q1" value="1c" id="1c"/>And try not to speak too quickly.</label></li>
+                      </ol>
+                    </li>
+                    
+                    <li>
+                      <h4>Paragraph 5</h4>
+                      <ol>
+                        <li><label for="2a"><input type="radio" name="q2" value="2a" id="2a"/>He talked about himself the entire time.</label></li>
+                        <li><label for="2b"><input type="radio" name="q2" value="2b" id="2b"/>When you are only interested in talking about yourself, other people don't feel that you appreciate them.</label></li>
+                        <li><label for="2c"><input type="radio" name="q2" value="2c" id="2c"/>The greatest way to make a good first impression is to demonstrate that the other person, not you, is the center of attention.</label></li>
+                      </ol>
+                    </li>
+                    
+                    <li>
+                      <h4>Paragraph 6</h4>
+                      <ol>
+                        <li><label for="3a"><input type="radio" name="q3" value="3a" id="3a"/>You'll impress other people when you practice good listening skills.</label></li>
+                        <li><label for="3b"><input type="radio" name="q3" value="3b" id="3b"/>Give interested responses.</label></li>
+                        <li><label for="3c"><input type="radio" name="q3" value="3c" id="3c"/>You also show you're a good listener when you maintain steady eye contact.</label></li>
+                      </ol>
+                    </li>
+                  </ol>
+                </form>
+              </div><!--end interactivity-->
+            </div><!--end question-->
+            <div class="question question_b">
+              <p class="rubric_a">Look again at Paragraphs 2, 3, and 7 in Reading 1. Click to highlight the topic sentence that states each paragraph's main idea. Then compare your answers with a partner.<p>
+              <div class="highlight_sentence interactivity"><!--make this interactive-->
+                <p><strong>Demonstrate</strong> a good attitude with your body. When you first walk into a room, show <strong>confidence</strong>. Stand up straight and look other people in the eye. If you smile frequently, it will make other people more comfortable. They will think you are friendly.</p>
+                <p>Appearance is important. Several years ago, a professional colleague offered to meet me for lunch. I wore a sport coat and tie. He showed up in shorts and sandals. The message I received was: "Bill, meeting you is a rather ordinary experience. I don't need to present a businesslike appearance." Not surprisingly, that was the last time I met with him. True, <strong>standards</strong> for appropriate clothing have changed a lot. Maybe the best advice I can share came from someone I met. She said, "I don't dress for the job I have now; I dress for the job I want to have."</p>
+                <p>Finally, avoid making other people uncomfortable. Be careful with jokes. Something you think is funny may be <strong>offensive</strong> to others. You don't want to hurt someone's feelings. Also, don't disagree with someone you have just met. If you disagree too much in your first conversation, the other person may think you are just too different. When you know the person better, you can express another opinion.</p>
+              </div><!--end interactivity-->
+            </div><!--end question-->
+
+          </div><!--end skill_chunk-->
+
+        </article><!--end reading_article-->
+      </section><!--end reading_lesson-->
+
+      <section class="lesson track_your_success">
+        <h1>Track Your Success</h1>
+        <section class="track_words">
+          <p>Check (&#10003;) the words you learned in this unit.</p>
+          <div class="track_nouns">
+            <h2>Nouns</h2>
+            <ul>
+              <li>accomplishment</li>
+              <li>confidence<span class="ox_3000_icon"></span></li>
+              <li>research<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+              <li>slang</li>
+              <li>standard<span class="ox_3000_icon"></span></li>
+              <li>stranger<span class="ox_3000_icon"></span></li>
+              <li>weakness<span class="ox_3000_icon"></span></li>
+            </ul>
+          </div>
+          <div class="track_verbs">
+            <h2>Verbs</h2>
+            <ul>
+              <li>appreciate<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+              <li>consider<span class="ox_3000_icon"></span></li>
+              <li>demonstrate<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+              <li>exaggerate<span class="ox_3000_icon"></span></li>
+              <li>expect<span class="ox_3000_icon"></span></li>
+              <li>impress<span class="ox_3000_icon"></span></li>
+              <li>maintain<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+              <li>select<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+            </ul>
+          </div>
+          <div class="track_adjectives">
+            <h2>Adjectives</h2>
+            <ul>
+              <li>cultural<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+              <li>offensive<span class="ox_3000_icon"></span></li>
+              <li>professional<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+              <li>punctual</li>
+              <li>responsible<span class="ox_3000_icon"></span><span class="awl_icon"></li>
+            </ul>
+          </div>
+        </section><!--end track_words-->
+
+        <section class="track_skills">
+          <p>Check (&#10003;) the skills you learned. If you need more work on a skill, click the link to return to the section.</p>
+          <ul>
+            <li>
+              <h3>Reading</h3>
+              <p>I can identify main ideas and supporting details. <span class="link_to_page"></span></p>
+            </li>
+            <li>
+              <h3>Vocabulary</h3>
+              <p>I can use the dictionary to find word forms. <span class="link_to_page"></span></p>
+            </li>
+            <li>
+              <h3>Writing</h3>
+              <p>I can organize and develop a paragraph. <span class="link_to_page"></span></p>
+            </li>
+            <li>
+              <h3>Grammar</h3>
+              <p>I can use real conditionals. <span class="link_to_page"></span></p>
+            </li>
+            <li>
+              <h3>Learning outcome</h3>
+              <p>I can develop a “how to” paragraph that details the steps involved in making a good impression.</p>
+            </li>
+          </ul>
+        </section><!--end track_skills-->
+
+      </section><!--end track_your_success-->

@@ -1,0 +1,534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pla",
+				"playing"
+			],
+			[
+				"pl",
+				"play"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"call",
+				"callNoteStore"
+			],
+			[
+				"chec",
+				"checkNotes"
+			],
+			[
+				"alre",
+				"already_graded"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"quest",
+				"questionScore"
+			],
+			[
+				"ques",
+				"questionScore"
+			],
+			[
+				"st",
+				"studentAnswer"
+			],
+			[
+				"ea",
+				"eachQuestion"
+			],
+			[
+				"inacti",
+				"inactive_button"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"activ",
+				"active_lesson"
+			],
+			[
+				"acti",
+				"active_lesson"
+			],
+			[
+				"less",
+				"lessonCount"
+			],
+			[
+				"page_",
+				"page_controls"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"match",
+				"matchingItem"
+			],
+			[
+				"bo",
+				"bolder"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"sty",
+				"font-style"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"background-i",
+				"background-image"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"right",
+				"right_col"
+			],
+			[
+				"add",
+				"addHclass"
+			],
+			[
+				"t",
+				"this"
+			],
+			[
+				"conte",
+				"content-wrap"
+			],
+			[
+				"co",
+				"content-wrap"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/boonc/Sites/Q/q_rw3_u02_001.html",
+		"/Users/boonc/Sites/Q/temp - pages content",
+		"/Users/boonc/Sites/Q/css/q-typography.css",
+		"/Users/boonc/Sites/Q/css/q-layout.css",
+		"/Users/boonc/Sites/Q/css/reset.css",
+		"/Users/boonc/Sites/Q/css/q-level_3-artwork.css",
+		"/Users/boonc/Sites/Q/css/q-ui.css",
+		"/Users/boonc/Sites/Q/css/q-interactives.css",
+		"/Users/boonc/Sites/Q/js/ui.js",
+		"/Users/boonc/Sites/Q/js/q-js.js",
+		"/Users/boonc/Desktop/temp.html",
+		"/Users/boonc/Sites/Q/js/matching.js",
+		"/Users/boonc/Sites/Q/js/modernizr.js",
+		"/Users/boonc/Desktop/links.html",
+		"/Users/boonc/Sites/Q/images/Q_logo_size1.png",
+		"/Users/boonc/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/boonc/Sites/Q/css/q-typography",
+		"/Users/boonc/Desktop/Q RW L3 test/js/modernizr",
+		"/Users/boonc/Desktop/Q RW L3 test/js/jquery-1.8.2.min.js",
+		"/Users/boonc/Desktop/Guided Writing MODEL/learner/Guided Writing MODEL/assessment0.xml",
+		"/Users/boonc/Desktop/Guided Writing MODEL/learner/Guided Writing MODEL/index.html",
+		"/Users/boonc/Desktop/Guided Writing MODEL/learner/Guided Writing MODEL/skin/default/js/enumerations.js",
+		"/Users/boonc/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/boonc/Desktop/Guided Writing MODEL/learner/Guided Writing MODEL/skin/default/js/gw.js",
+		"/Users/boonc/Desktop/Guided Writing MODEL/indexAPI.html",
+		"/Users/boonc/Desktop/Guided Writing MODEL/learner/Guided Writing MODEL/skin/default/body.html",
+		"/Users/boonc/Desktop/Guided Writing MODEL/cloudjs.js",
+		"/Users/boonc/Desktop/OL Git/primary_pack/popup.html",
+		"/Users/boonc/Desktop/OL Git/empty/popup.html",
+		"/Users/boonc/Desktop/OL Git/default/popup.html",
+		"/Users/boonc/Desktop/OL Git/primary_pack/css/default.css",
+		"/Users/boonc/Desktop/OL Git/default/css/default.css",
+		"/Users/boonc/Desktop/OL Git/default/css/styles/drag-drop.css",
+		"/Users/boonc/Desktop/OL Git/primary_pack/head.html",
+		"/Users/boonc/Desktop/OL Git/default/js/jquery.tiptip.js",
+		"/Users/boonc/Desktop/OL Git/default/head.html",
+		"/Users/boonc/Desktop/OL Git/primary_pack/css/tiptip.css",
+		"/Users/boonc/Desktop/OL Git/primary_pack/css/styles/is-target-game.css",
+		"/Users/boonc/Desktop/OL Git/primary_pack/body.html",
+		"/Users/boonc/Desktop/OL Git/empty/contentElements.html",
+		"/Users/boonc/Desktop/OL Git/empty/body.html",
+		"/Users/boonc/Desktop/OL Git/default/contentElements.html",
+		"/Users/boonc/Desktop/OL Git/default/body.html",
+		"/Users/boonc/Desktop/OL Git/primary_pack/contentElements.html",
+		"/Users/boonc/Desktop/OL Git/engine/css/is-linking-lines.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"index.html",
+			"",
+			"index.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"audio",
+			"1.3",
+			"audio",
+			"revealContent",
+			"graded",
+			"print",
+			"clear",
+			"sizing",
+			"inactive_button",
+			"3a",
+			"img",
+			".interactivity",
+			"interactivity",
+			"ity_001",
+			"clearf",
+			"clear",
+			"before",
+			"box-si",
+			"content-b",
+			"background",
+			"unit_",
+			"conte",
+			"i001_sans-serif;",
+			"\"Verdana\",",
+			"glossary_term",
+			"border-box",
+			"display: none;",
+			"url",
+			"minion",
+			"ain",
+			"coral",
+			"matching",
+			"i1_",
+			"interactivity",
+			"Reading 1",
+			"::f",
+			"border-box",
+			"border-bo",
+			"semi",
+			"3b",
+			"clearf",
+			"column",
+			"51",
+			"em",
+			"url",
+			"3a",
+			"1.5",
+			"after",
+			"border-b",
+			"myr",
+			"padd",
+			"Voice",
+			"words we selec",
+			"’",
+			"”",
+			"“",
+			"realia",
+			"Discuss",
+			"Listen to",
+			"listen to",
+			"rubric_a",
+			"”",
+			"“",
+			" planning not",
+			"scro",
+			"enumerations.js",
+			"tiptapz",
+			"TipTip",
+			"div id=\"model",
+			"enumeration_updater",
+			"interactionL",
+			"cloud",
+			".a5_getPopupContent",
+			"window.ope",
+			"window.op",
+			".wordpool h1",
+			".is-rubric-zone",
+			"popup.html",
+			"tiptip",
+			"fadeIn",
+			"animated",
+			"tiptip",
+			"tooltapz",
+			"tooltipz",
+			"toolt",
+			"tooltipz",
+			"nish all pages of the",
+			"inish all pages of the acti",
+			"tooltapz",
+			"inish all pages of the acti",
+			"pointer-",
+			"z-index:25",
+			"pointer-events",
+			"pointer-",
+			"page"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sans-serif;",
+			"",
+			"i001_",
+			"'",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true
+}

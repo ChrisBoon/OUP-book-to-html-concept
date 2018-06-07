@@ -1,0 +1,198 @@
+/*type text - single letter*/
+
+/*type text - single word*/
+
+/*type text - single line*/
+.textarea_line textarea,
+.textarea_paragraph textarea{
+  border: none;
+  background: rgba(47, 190, 224, 0.15);
+  width: 100%;
+  max-width: 600px;
+  height: 24px;
+  resize: vertical;
+  outline: none;
+  padding:2px 6px;
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "minion-pro","Hoefler Text","Times","Times New Roman",serif;
+  color: rgba(0,0,0,0.9);
+  border-radius: 0;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  -o-transition: background 0.2s;
+  -ms-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.textarea_line textarea::-webkit-input-placeholder,
+.textarea_paragraph textarea::-webkit-input-placeholder {
+   color: rgba(47, 190, 224, 1);
+}
+
+.textarea_line textarea:-moz-placeholder,
+.textarea_paragraph textarea:-moz-placeholder {  
+   color: rgba(47, 190, 224, 1);  
+}
+
+.textarea_line textarea:hover, .textarea_line textarea:active, .textarea_line textarea:focus,
+.textarea_paragraph textarea:hover, .textarea_paragraph textarea:active, .textarea_paragraph textarea:focus{
+  outline:0;
+  outline:none;
+  -moz-appearance:none;
+  background: rgba(47, 190, 224, 0.25);
+  box-shadow: 0 1px 1px 0 rgba(0,20,30,0.1);
+  border-radius: 1px;
+}
+
+.textarea_line .rubric_b, .rubric_b > li >p,
+.textarea_paragraph .rubric_b, .rubric_b > li >p{
+  margin-bottom: 2px;
+}
+
+
+/*type text - single paragraph*/
+.textarea_paragraph textarea{
+   height: 72px;
+}
+
+/*MCS*/
+
+
+.checkbox_single{
+  width:100%;
+}
+.checkbox_single:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+
+.checkbox_single label{
+  display: block;
+  float: left;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "minion-pro","Hoefler Text","Times","Times New Roman",serif;
+  color: rgba(51,51,51,1);
+
+}
+
+/*MULTIPLE CHOICE*/
+
+.multiple_choice label{
+  position: relative;
+}
+
+.multiple_choice .is_correct{
+  background-color: rgba(200, 211, 69, 0.35);
+}
+.multiple_choice .is_correct:before,
+.multiple_choice .is_incorrect:before{
+  position: absolute;
+  content: "\2714";
+  width:16px;
+  height:16px;
+  top: 50%;
+  margin-top: -8px;
+  left: -18px;
+  color: #fff;
+  background: rgba(200, 211, 69, 1);
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.multiple_choice .is_incorrect{
+  background-color: rgba(255,20,20,0.25);
+}
+
+.multiple_choice .is_incorrect:before{
+  background: rgba(255,20,20,1);
+  content: "\2718";
+}
+
+/*MATCHING*/
+.matching_2_col{
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "minion-pro","Hoefler Text","Times","Times New Roman",serif;
+  color: rgba(51,51,51,1);
+}
+.matching_2_col:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+
+.matching_2_col>ol{
+  width: 49%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  float: left;
+  margin-right: 1%;
+}
+
+.matching_2_col li{
+  margin-bottom: 4px;
+  padding: 2px 4px;
+}
+
+.matching_2_col .static_column li{
+  background: rgba(237,240,240,1);
+}
+
+.matching_2_col .movable_column li{
+  background: rgba(47,190,224,0.25);
+  cursor: move;
+}
+
+.matching_2_col .movable_column li:hover{
+  background: rgba(47,190,224,0.5);
+}
+
+.matching_2_col .movable_column li:active{
+  background: rgba(47,190,224,1);
+  color: rgba(255,255,255,1);
+  box-shadow: 0 0 0 3px rgba(47,190,224,1);
+}
+
+
+/*ITEM SPECIFIC OVERRIDES*/
+
+.matching_2_col_001 .static_column{
+  width:60%;
+}
+
+.matching_2_col_001 .movable_column{
+  width: 38%;
+}
+
+.interactivity_003.checkbox_single label{
+  clear:both;
+}
+
+.interactivity_003.checkbox_single label + label{
+  margin-top: 2px;
+}
+
+.interactivity_004 li{
+  margin-top: 2px;
+  padding: 2px 0;
+}
+.interactivity_004 li:first-of-type{
+  margin-top: 0px;
+}
+
+.interactivity_004 li label{
+  margin-right: 6px;
+}
+

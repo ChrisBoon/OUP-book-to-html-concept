@@ -1,0 +1,437 @@
+
+.lesson:not(.opener_lesson){
+  max-width: 700px;
+  float: right;
+  clear: both;
+  padding-top: 30px;
+}
+
+.unit_header{
+  width: 100%;
+  height:114px;
+
+  background: rgba(137,170,59,1); /*level_3b*/
+  border-bottom: 2px solid rgba(255,255,255,1);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+
+}
+
+.unit_title{
+  display: block;
+  float: left;
+  position: relative;
+
+  width: 150px;
+  height:100%;
+
+  background: rgba(200,211,69,1); /*level_3a*/
+}
+
+.unit_title_unit{
+  position: absolute;
+  
+  top:34px;
+  left:20px;
+
+  text-transform: uppercase;
+  font-family: "adelle", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(137,170,59,1); /*level_3b*/
+
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.unit_title_number{
+  position: absolute;
+
+  top:0px;
+  left:65px;
+
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  color: rgba(137,170,59,1); /*level_3b*/
+}
+
+.unit_title_title{
+  position: absolute;
+
+  width: 114px;
+  padding:3px 3px 0 3px;
+
+  bottom: 10px;
+  left: 15px;
+
+  border-top: 1px solid rgba(255,255,255,1);
+  border-left: 1px solid rgba(255,255,255,1);
+
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: rgba(255,255,255,1);
+}
+
+.article_chunk{
+    margin-top:40px;
+
+}
+
+.mini_contents{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  
+  width:100%;
+
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 12px;
+  line-height:18px;
+}
+
+.mini_contents>ul{
+  float: left;
+
+  max-width:400px;
+  padding:14px;
+}
+
+.mini_contents h3{
+  position: relative;
+  display: block;
+  float: left;
+  clear: left;
+
+  min-width: 90px;
+
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-size: 12px;
+  line-height:18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: right;
+  color: rgba(229,233,168,1); /*level_3a_T50%*/
+}
+
+.mini_contents h3:after{
+  content: "\00a0";
+  position: absolute;
+  display: block;
+
+  height: 10px;
+  width: 10px;
+
+  top: 4px;
+  right: -20px;
+
+  background: rgba(121,155,59,1); /*level_3d*/
+
+  border-radius: 5px;
+
+}
+
+.mini_contents p{
+  display: block;
+  float: left;
+
+  padding-left: 30px;
+
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  font-size: 12px;
+  line-height:18px;
+  color: rgba(255,255,255,1);
+}
+
+.mini_contents>ul.mini_contents_outcome{
+  float: right;
+  max-width: 200px;
+}
+
+.mini_contents>ul.mini_contents_outcome p{
+  padding-left: 0;
+}
+
+.opener_artwork{
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.opener_artwork img{
+  max-width: 100%;
+}
+
+.unit_question{
+  position: relative;
+  width: 100%;
+  min-height: 80px;
+
+  background: rgba(137,170,59,1); /*level_3b*/
+  border-top: 2px solid rgba(255,255,255,1);
+}
+
+.unit_question:after{
+  content: "\00a0";
+  display: block;
+  position: absolute;
+
+  width: 140px;
+  height: 160px;
+
+  left: 10px;
+  bottom: 0px;
+  background-image: url(../images/Q_logo_size1.png);
+}
+
+.unit_question h4{
+  margin-left: 160px;
+  padding-top: 10px;
+
+  font-family: "adelle", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255,255,255,1);
+}
+
+.unit_question h4 span{
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.unit_question p{
+  margin-left: 160px;
+  margin-right: 20px;
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+  padding-bottom: 10px;
+}
+
+
+/*COMPONENTS*/
+
+/*Audio icons*/
+.audio_with_rubric{
+  display: block;
+
+  max-width: 450px;
+  min-height: 20px;
+  margin-top: 12px;
+  padding: 0;
+
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(51,51,51,1);
+  background-color: rgba(200,211,69,0.25); /*level_3a*/
+
+    
+  border-radius: 10px; 
+  cursor: pointer;
+}
+
+.audio_with_rubric .audio_icon{
+  float: left;
+  width:20px;
+  height:20px;
+
+  background-color: rgba(200,211,69,1); /*level_3a*/
+  background-image: url(../images/Q_audio_size1.png);
+  background-position: 2px 2px;
+  background-repeat: no-repeat;
+  background-size: 15px;
+
+  border-radius: 10px; 
+}
+
+.audio_with_rubric .track_rubric{
+  float: left;
+  line-height: 20px;
+  height:20px;
+  padding-left: 8px;
+}
+
+.audio_with_rubric .track_id{
+  color: rgba(200,211,69,1); /*level_3a*/
+  float: right;
+  height:20px;
+  line-height: 20px;
+  padding-right: 8px;
+}
+
+.audio_with_rubric:hover{
+  background: rgba(200,211,69,1); /*level_3a*/
+}
+
+.audio_with_rubric:hover .track_id{
+  color: rgba(255,255,255,1);
+}
+
+.audio_with_rubric:active, 
+.audio_with_rubric.playing,
+.audio_with_rubric:active .audio_icon,
+.audio_with_rubric.playing .audio_icon{
+  background-color: rgba(51,51,51,1); /*level_3a*/
+  color: rgba(255,255,255,1);
+}
+
+
+/*UNIT CONTENTS*/
+.unit_contents{
+  padding-left: 16px;
+  background: rgba(200,211,69,1); /*level_3a*/
+}
+
+.unit_contents:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.unit_contents_heading{
+  margin: 10px 0 10px -16px;
+  padding: 6px;
+  background: rgba(200,211,69,1); /*level_3a*/
+  font-family: "myriad-pro", "Segoe UI", "Trebuchet MS", Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255,255,255,1);
+}
+
+.unit_contents .sub_section{
+  display: block;
+  float: left;
+  width: 230px;
+  margin-right: 16px;
+  background: rgba(255,255,255,1);
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.unit_contents .sub_section:hover h3{
+  background-color: rgba(92,128,57,1); /*level_3d*/
+  color: rgba(255,255,255,1);
+}
+
+.unit_contents .sub_section h3{
+  background-color: rgba(200,211,69,.4);
+  color: rgba(92,128,57,1); /*level_3d*/
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 6px;
+}
+
+.unit_contents .sub_section ul{
+  margin: 5px 8px 5px 14px;
+}
+
+.unit_contents .sub_section li{
+  font-family: "myriad-pro","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  position: relative;
+  line-height: 1.3;
+  margin-bottom: 3px;
+}
+
+.unit_contents .sub_section li:before{
+  display: block;
+  position: absolute;
+  content: "\00a0";
+  top:7px;
+  left:-8px;
+  width:4px;
+  height:4px;
+  border-radius: 2px;
+  background-color: rgba(51,51,51,1);
+}
+
+
+
+/*HACKS and other ugly stuff*/
+
+.column_wrap:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
+.opener_visual_wrapper:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.opener_visual_wrapper{
+  background-color: rgba(137, 170, 59, 1);
+}
+
+.opener_artwork{
+  float: left;
+  width:430px;
+}
+.opener_artwork img{
+  display: block;
+}
+
+.unit_question{
+  float: left;
+  width: 338px;
+  border: none;
+  background-color: transparent;
+}
+
+.unit_question:after{
+  top: 20px;
+  left: -50px;
+  width:105px;
+  height: 120px;
+  background-size: contain;
+}
+
+.unit_question h4{
+  margin-left: 70px;
+  padding-top: 24px;
+}
+
+.unit_question p{
+  margin-left: 70px; 
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.unit_contents_heading{
+  margin-top: 2px;
+}
+
+
+}

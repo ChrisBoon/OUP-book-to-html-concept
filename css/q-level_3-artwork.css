@@ -1,0 +1,191 @@
+.realia{
+  margin-top: 18px;
+  margin-right:30px; 
+}
+
+.realia_001{
+  background-color: rgba(245,245,245,1);
+  background-image: url(../artwork/realia_001_bg.png);
+
+  border:1px solid rgba(0,0,0,0.2);
+  box-shadow: inset 0 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.realia_001>h1{
+  position: relative;
+
+  padding: 10px 10px 10px 30px;
+
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: rgba(255,255,255,1);
+
+  background-color: rgba(48,56,128,.7);
+  box-shadow: inset 14px 0 0 0 rgba(48,56,128,1);
+
+}
+
+.realia_001>h1:after{
+  content: "\00a0";
+  display: block;
+  position: absolute;
+
+  width:0;
+  height:0;
+
+  top:-1px;
+  right:-1px;
+ 
+  border-color: transparent white transparent transparent;
+  border-style:solid;
+  border-width:0 30px 30px 0;
+}
+
+.realia_001>form{
+  margin-top:8px;
+
+  border-top: 8px solid rgba(220,146,50,1);
+}
+
+.realia_001>form:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.realia_001 .custom_column{
+  width:44%;
+  float: left;
+  padding-right: 4%;
+}
+
+.realia_001 .custom_question{
+  position: relative;
+
+  padding: 10px 10px 10px 28px;
+}
+
+.realia_001 .custom_question>.custom_enumeration{
+  position: absolute;
+
+  top:10px;
+  left:14px;
+
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+}
+
+.realia_001 .custom_rubric{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+
+}
+
+.realia_001 .custom_question label{
+  display: table;
+
+  padding:3px 5px;
+  margin-left: -5px;
+
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(51,51,51,1);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.realia_001 .custom_question label:hover{
+  background-color: rgba(47,190,224,0.5);
+}
+
+.realia_001 .custom_question label>*{
+  display: table-cell;
+}
+
+.realia_001 .custom_question label>.custom_enumeration{
+  padding: 0 6px 0 3px;
+  color: rgba(51,51,51,.7);
+}
+
+.realia_001 img{
+  float: left;
+  width: 46%;
+  margin: 1%;
+}
+
+
+
+.realia_002{
+  background-color: rgba(235,240,246,1);
+  padding: 10px;
+}
+.realia_002 .cols{
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;  
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;  
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.realia_002 h1{
+  font-family: "myriad-pro","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 700;
+  color: rgba(255,255,255,1);
+  font-size: 25px;
+
+  padding:12px 0 12px 40px;
+  margin: 0 -10px 15px -10px;
+  background: -moz-linear-gradient(left, rgba(46,63,118,1) 0%, rgba(125,185,232,0) 100%), url(../artwork/realia_002_bg.png);
+  background: -webkit-linear-gradient(left, rgba(46,63,118,1) 0%,rgba(125,185,232,0) 100%), url(../artwork/realia_002_bg.png);
+  background: -o-linear-gradient(left, rgba(46,63,118,1) 0%,rgba(125,185,232,0) 100%), url(../artwork/realia_002_bg.png);
+  background: -ms-linear-gradient(left, rgba(46,63,118,1) 0%,rgba(125,185,232,0) 100%), url(../artwork/realia_002_bg.png);
+  background: linear-gradient(to right, rgba(46,63,118,1) 0%,rgba(125,185,232,0) 100%), url(../artwork/realia_002_bg.png);
+
+  box-shadow: inset 20px 0 0 0 rgba(209,105,77,1);
+
+}
+
+.realia_002 p{
+  position: relative;
+  font-family: "myriad-pro","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 500;
+  padding-left:15px;
+  text-indent: 10px;
+}
+
+.realia_002 h2{
+  font-family: "myriad-pro","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 700;
+  color: rgba(46,63,118,1); 
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.realia_002 p:before{
+  content:"1";
+  position: absolute;
+  display: block;
+  left:0px;
+
+  text-align: left;
+  padding-left:0px;
+  text-indent: 0px;
+  font-size: 10px;
+  color: rgba(209,105,77,1);
+  line-height: 19px;
+}
+
+.realia_002 p:nth-of-type(2):before{content:"2";}
+.realia_002 p:nth-of-type(3):before{content:"3";}
+.realia_002 p:nth-of-type(4):before{content:"4";}
+.realia_002 p:nth-of-type(5):before{content:"5";}
+.realia_002 p:nth-of-type(6):before{content:"6";}
+.realia_002 p:nth-of-type(7):before{content:"7";}

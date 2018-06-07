@@ -1,0 +1,223 @@
+p, ul{
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "minion-pro","Hoefler Text","Times","Times New Roman",serif;
+  color: rgba(51,51,51,1);
+
+}
+
+/*HEADINGS*/
+
+/*PREVIEW THE UNIT*/
+.preview_the_unit_heading{
+  display: block;
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 22px;
+  letter-spacing: 1px;
+  background: rgba(255,255,255,1);
+  border-left: 1px solid rgba(95,95,95,1);
+  border-bottom: 1px solid rgba(95,95,95,1);
+  margin-bottom: 16px;
+}
+
+.preview_the_unit_heading>span{
+  display: block;
+  float: left;
+  color: rgba(255,255,255,1);
+  background: rgba(95,95,95,1);
+  margin: 0 0 2px 2px;
+  padding:2px 3px;
+}
+
+.preview_the_unit_heading:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+/*READING*/
+.reading_heading{
+  padding: 20px 30px 6px 4px;
+  margin-bottom: 20px;
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+
+  background: rgba(137,170,59,1); /*level_3b*/
+  border-left: 1px solid rgba(137,170,59,1); /*level_3b*/
+  border-bottom: 1px solid rgba(137,170,59,1); /*level_3b*/
+  box-shadow: inset 2px -2px 0 0 rgba(255,255,255,1);
+}
+.reading_x_heading{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: rgba(51,51,51,1);
+  margin-bottom: 20px;
+}
+.reading_x_heading>span:first-child{
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(137,170,59,1); /*level_3b*/
+  margin-right: 10px;
+  padding-right:10px;
+  border-right: 2px solid rgba(137,170,59,1); /*level_3b*/
+}
+
+
+.article_chunk_heading{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(122,136,145,1);
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+.article_chunk_heading>.smallCapsCap{
+  font-size: 23px;
+
+}
+
+
+.skill_chunk_heading{
+  margin-bottom: 2px;
+  box-shadow: inset 0 -1px 0 0 rgba(137,170,59,1);
+}
+.skill_chunk_heading:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.skill_chunk_heading h2, .skill_chunk_heading h3{
+  float: left;
+  color: rgba(255,255,255,1);
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size:18px;
+  padding: 5px 10px 3px;
+  border-top: 1px solid rgba(137,170,59,1);
+  box-shadow: inset 0 2px 0 0 rgba(255,255,255,1);
+}
+
+.skill_chunk_heading h2{
+  background: rgba(137,170,59,1);
+  padding-right: 13px;
+}
+
+.skill_chunk_heading h3{
+  background: rgba(100,100,100,1);
+  border-right: 1px solid rgba(137,170,59,1);
+  box-shadow: inset -3px 2px 0 0 rgba(255,255,255,1);
+}
+
+.skill_chunk_heading a{
+  display: block;
+  float: left;
+  width:25px;
+  height:25px;
+  background-image: url(../images/Q_webplus_size1.png);
+  background-position: bottom left;
+  background-size: 25px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.skill_chunk_heading a:active{
+  background-position: top left;
+}
+
+/*RUBRICS*/
+
+.rubric_a, .rubric_b{
+  max-width: 450px;
+  margin-bottom: 6px;
+}
+
+.rubric_a{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.rubric_b, .rubric_b>li{
+  margin-bottom: 6px;
+}
+.rubric_b:last-child, .rubric_b>li:last-child{
+  margin-bottom: 0px;
+}
+
+.question{
+  position: relative;
+  margin-bottom: 14px;
+}
+
+
+ol.numbered_rubric_b{
+  counter-reset:li;
+  margin-left: 18px;
+}
+ol.numbered_rubric_b li{
+  position:relative;
+  list-style:none;
+}
+
+ol.numbered_rubric_b > li:before{
+  content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:0;
+    left:-18px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:12px;
+    color: rgba(51,51,51,1);
+    font-weight:bold;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "minion-pro","Hoefler Text","Times","Times New Roman",serif;
+    text-align:center;
+}
+
+.skill_text{
+  background: rgba(242,238,229,1);
+  padding: 8px 18px;
+  max-width: 450px;
+}
+
+/*LESSON SPECIFIC CUSTOMISATIONS*/
+
+.preview_the_unit .enumeration{
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  top: 2px;
+  left: 0;
+
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 18px;
+  color: rgba(255,255,255,1);
+
+  background: rgba(209,105,77,1); /*q_coral*/
+  border-radius: 10px;
+}
+
+.preview_the_unit .rubric_a, .preview_the_unit .rubric_b{
+  padding-left: 28px;
+}

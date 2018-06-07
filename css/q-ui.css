@@ -1,0 +1,793 @@
+body{
+  margin: 0 auto;
+  width: 768px;
+  background: rgba(225,225,225,1);
+}
+
+.eCourse_header{
+  background: rgba(255,255,255,1);
+  width:768px;
+}
+
+.level_branding{
+  display: none;
+}
+
+
+.course_controls{
+  background-color: rgba(0,0,0,.8);
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  color: rgba(207,207,207,1);
+}
+
+.course_controls:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.course_controls_h1{
+  display: none;
+}
+
+.course_controls li{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgba(207,207,207,1);
+  padding: 34px 10px 4px;
+  display: block;
+  float: left;
+  cursor: pointer;
+  background-image: url(../images/ecourse_nav_bar_icons_sprite.png);
+  background-repeat: no-repeat;
+  border-right:1px solid rgba(255,255,255,0.1);
+}
+
+
+.course_controls li.course_controls_to_nav{
+  background-position: 50% 10px;
+}
+
+.course_controls li.course_controls_to_grades{
+  background-position: 50% -65px;
+}
+
+.course_controls li.course_controls_to_progress{
+  background-position: 50% -142px;
+}
+
+.course_controls li.course_controls_to_notes{
+  background-position: 50% -215px;
+}
+
+.course_controls li.course_controls_to_dictionary{
+  background-position: 50% -290px;
+}
+
+.course_controls li.course_controls_to_extras{
+  background-position: 50% -365px;
+}
+
+
+.course_controls li.course_controls_to_account{
+  background-position: 50% -440px;
+  float: right;
+}
+
+.course_controls li:hover{
+  color: rgba(255,255,255,1);
+}
+
+
+.contents_navigation{
+  display: none;
+  border-bottom: 1px solid rgba(255,255,255,0.1);  
+}
+
+.contents_navigation .course_breadcrumb{
+  list-style: none; 
+  overflow: hidden; 
+  background-color: rgba(100, 100, 100, 1);
+  border-top: 1px solid rgba(170,170,170,1);
+  border-bottom: 1px solid rgba(170,170,170,1);
+}
+
+.contents_navigation .course_breadcrumb:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.contents_navigation .course_breadcrumb li{
+  float: left;
+}
+
+.contents_navigation .course_breadcrumb li a {
+  color: rgba(255,255,255,1);
+  text-decoration: none; 
+  padding: 4px 0 4px 29px;
+  background: -moz-linear-gradient(left, rgba(25,25,25,1) 0%, rgba(51,51,51,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(25,25,25,1) 0%,rgba(51,51,51,1) 100%);
+  background: -o-linear-gradient(left, rgba(25,25,25,1) 0%,rgba(51,51,51,1) 100%);
+  background: -ms-linear-gradient(left, rgba(25,25,25,1) 0%,rgba(51,51,51,1) 100%);
+  background: linear-gradient(to right, rgba(25,25,25,1) 0%,rgba(51,51,51,1) 100%); 
+  position: relative; 
+  display: block;
+  float: left;
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgba(207,207,207,1);
+  cursor: pointer;
+}
+
+.contents_navigation .course_breadcrumb li a:after { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 25px solid transparent;           /* Go big on the size, and let overflow hide */
+  border-bottom: 25px solid transparent;
+  border-left: 18px solid rgba(51,51,51,1);
+  position: absolute;
+  top: 50%;
+  margin-top: -25px; 
+  left: 100%;
+  z-index: 2; 
+}
+.contents_navigation .course_breadcrumb li a:before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 25px solid transparent;       
+  border-bottom: 25px solid transparent;
+  border-left: 18px solid rgba(120,120,120,1);
+  position: absolute;
+  top: 50%;
+  margin-top: -25px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}
+
+.contents_navigation .course_breadcrumb li:first-child a {
+  padding-left: 10px;
+}
+
+.contents_navigation .course_breadcrumb li:last-child a {
+  background: transparent !important;
+  pointer-events: none;
+  cursor: default;
+}
+.contents_navigation .course_breadcrumb li:last-child a:before,
+.contents_navigation .course_breadcrumb li:last-child a:after{
+  display: none;
+}
+
+.contents_navigation .course_breadcrumb li a:hover { color: rgba(255,255,255,1); background: rgba(200,211,69,1); /*level_3a*/ }
+.contents_navigation .course_breadcrumb li a:hover:after { border-left-color: rgba(200,211,69,1) !important; /*level_3a*/ }
+
+
+.contents_navigation .page_thumbs_container{
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.contents_navigation .page_thumbs{
+  background-color: rgba(100, 100, 100, 1);
+}
+.contents_navigation .page_thumbs:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.contents_navigation .page_thumbs>li{
+  float: left;
+}
+
+.contents_navigation .page_thumbs>li>a{
+  display: block;
+  width: 160px;
+  height:120px;
+  background-color: rgba(255,255,255,0.1);
+  margin: 6px;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.contents_navigation .page_thumbs>li.active_lesson_thumb a{
+  opacity:0.7;
+  box-shadow: inset 0 0 2px 1px rgba(0,0,0,0.2);
+  pointer-events:none;
+}
+
+.contents_navigation .page_thumbs>li:first-child>a{
+  margin-left: 6px;
+}
+
+.contents_navigation .page_thumbs>li>a>span{
+  background-color: rgba(0,0,0,1);
+  padding: 2px 0;
+  text-align: center;
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 400;
+  display: block;
+  position: absolute;
+  width:100%;
+  color: rgba(255,255,255,1);
+  top:-50px;
+  -webkit-transition: top 0.2s;
+     -moz-transition: top 0.2s;
+       -o-transition: top 0.2s;
+          transition: top 0.2s;
+}
+
+.contents_navigation .page_thumbs>li:hover>a>span,
+.contents_navigation .page_thumbs>li.active_lesson_thumb a>span{
+  top:0;
+}
+
+.page_controls{
+  background-color: rgba(0,0,0,.6);
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  color: rgba(207,207,207,1);
+  width: 768px;
+  z-index: 9999;
+}
+
+.page_controls:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.page_controls h1{
+  display: block;
+  float: left;  
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 4px 10px 4px;
+  color: rgba(200,211,69,1); /*level_3a*/
+  height:30px;
+  line-height: 30px;
+  border-right:1px solid rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+.page_controls ul:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.page_controls>ul li{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 4px;
+  color: rgba(207,207,207,1);
+  display: block;
+  float: left;
+  cursor: pointer;
+  background-image: url(../images/ecourse_page_controls_icons_sprite.png);
+  background-repeat: no-repeat;
+  border-right:1px solid rgba(255,255,255,0.1);
+  width:30px;
+  height:30px;
+}
+
+.page_controls_to_prev{
+  background-position: 50% -590px;
+}
+
+.page_controls_to_next{
+  background-position: 50% -515px;
+}
+
+.page_controls_to_gradepage{
+  background-position: 50% -442px;
+}
+
+.page_controls_to_send{
+  background-position: 50% -365px;
+}
+
+.page_controls_to_evernote{
+  background-position: 50% -290px;
+}
+
+.page_controls_to_email{
+  background-position: 50% -213px;
+}
+
+.page_controls_to_print{
+  background-position: 50% -140px;
+}
+
+.page_controls_to_addnote{
+  background-position: 50% -67px;
+}
+
+.page_controls_to_teacherref{
+  background-position: 50% 10px;
+}
+
+.page_controls>ul li:hover,
+.page_controls>h1:hover{
+  background-color: rgba(200,211,69,1); /*level_3a*/
+  color: rgba(255,255,255,1);
+}
+
+.page_controls>ul li:active,
+.page_controls>h1:active{
+  background-color: rgba(0,0,0,1);
+  color: rgba(255,255,255,1);
+}
+
+.page_controls>ul li.inactive_button{
+  cursor: default;
+  opacity: 0.4;
+  pointer-events:none;
+}
+
+.page_controls>ul li.already_graded,
+.page_controls>ul li.active{
+  background-color: rgba(200,211,69,1); /*level_3a*/
+}
+
+/*NOTE TRAY*/
+.this_page_note{
+  padding: 10px 0;
+  background-color: rgba(200,211,69,1); /*level_3a*/
+}
+
+.this_page_note:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.this_page_note .page_note_controls{
+  float: left;
+  width:120px;
+}
+
+.this_page_note .page_note_controls li{
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgba(255,255,255,1);
+  height: 20px;
+  background-image: url(../images/ecourse_page_controls_icons_sprite.png);
+  background-repeat: no-repeat;
+  text-indent: 30px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.this_page_note .page_note_controls li.print_note_button{
+  background-position: 0px -150px;
+}
+
+.this_page_note .page_note_controls li.email_note_button{
+  background-position: 0px -222px;
+}
+
+.this_page_note .page_note_controls li:hover{
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+
+.this_page_note .the_actual_note{
+  float: left;
+  width:620px;
+  margin: 0 10px;
+}
+
+.this_page_note .the_actual_note textarea{
+  border: none;
+  outline: none;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  max-height: 200px;
+  padding: 4px 8px;
+  -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+  border-radius: 2px;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.2),0 2px 0 0 rgba(0,0,0,0.05);
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: "minion-pro","Hoefler Text","Times","Times New Roman",serif;
+  color: rgba(120,120,120,1);
+}
+
+
+.thebook{
+  margin: 0 auto;
+  width: 768px;
+  background:#fff;
+}
+.thebook:after, .unit:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.interactivity{
+  position: relative;
+}
+.activity_grade{
+  position: absolute;
+  top:0;
+  left:-55px;
+  width:40px;
+  height:50px;
+  background-color: rgba(240,240,240,1);
+  background-image: url(../images/ecourse_page_controls_icons_sprite.png);
+  background-position: 50% -435px;
+  background-repeat: no-repeat;
+  border-radius: 1px;
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+}
+
+.activity_grade.graded {
+    background: rgba(240,240,240,1);
+}
+.activity_grade.graded .userscore {
+    display: block;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-size: 28px;
+    padding: 2px;
+    background: rgba(55,55,55,1);
+    height: 30px;
+}
+
+.activity_grade.graded .totalscore{
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1px;
+}
+.activity_grade.graded .totalscore:before{
+  content: "out of ";
+}
+
+
+/*THUMBNAIL IMAGES FOR PAGE NAVIGATION*/
+.thumb_001 a{background-image: url(../page_thumbs/thumb_001.jpg)}
+.thumb_002 a{background-image: url(../page_thumbs/thumb_002.jpg)}
+.thumb_003 a{background-image: url(../page_thumbs/thumb_003.jpg)}
+.thumb_004 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_005 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_006 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_007 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_008 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_009 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_010 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+.thumb_011 a{background-image: url(); background-color: rgba(240,230,220,0.5);}
+
+@media only screen and (max-device-width: 767px){
+
+.eCourse_header{
+  position: fixed;
+  z-index: 9999;
+}
+
+.course_controls{
+  display: none;
+  background-color: rgba(0,0,0,.8);
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  color: rgba(207,207,207,1);
+}
+
+.thebook{
+  padding-top: 48px;
+}
+
+
+.course_controls:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.course_controls_h1{
+  display: block;
+  float: left;
+  font-size: 24px;
+  padding: 9px 16px 9px 40px;
+  height:30px;
+  line-height: 30px;
+  background-image: url(../images/ecourse_nav_bar_icons_sprite.png);
+  background-repeat: no-repeat;
+  background-position: 10px -504px;
+  border-right:1px solid rgba(255,255,255,0.1);
+}
+
+.course_controls li{
+  font-weight: 600;
+  font-size: 48px;
+  padding: 8px 10px 8px 54px;
+  background-image: url(../images/ecourse_nav_bar_icons_sprite.png);
+  background-repeat: no-repeat;
+  background-size: 36px auto;
+  float: none;
+  border-bottom:1px solid rgba(255,255,255,0.1);
+
+}
+
+
+.course_controls li.course_controls_to_nav{
+  background-position: 10px 26px;
+}
+
+.course_controls li.course_controls_to_grades{
+  background-position: 10px -84px;
+}
+
+.course_controls li.course_controls_to_progress{
+  background-position: 10px -200px;
+}
+
+.course_controls li.course_controls_to_notes{
+  background-position: 10px -312px;
+}
+
+.course_controls li.course_controls_to_dictionary{
+  background-position: 10px -424px;
+}
+
+.course_controls li.course_controls_to_extras{
+  background-position: 10px -534px;
+}
+
+
+.course_controls li.course_controls_to_account{
+  background-position: 10px -644px;
+  float: none;
+}
+
+
+.page_controls h1{
+  font-size: 24px;
+  padding: 9px 10px 9px;
+  height:30px;
+  line-height: 30px;
+}
+
+.page_controls>ul li{
+
+  width:40px;
+  height:40px;
+}
+
+.page_controls_to_prev{
+  background-position: 50% -584px;
+}
+
+.page_controls_to_next{
+  background-position: 50% -509px;
+}
+
+.page_controls_to_gradepage{
+  background-position: 50% -436px;
+}
+
+.page_controls_to_send{
+  background-position: 50% -359px;
+}
+
+.page_controls_to_evernote{
+  background-position: 50% -284px;
+}
+
+.page_controls_to_email{
+  background-position: 50% -207px;
+}
+
+.page_controls_to_print{
+  background-position: 50% -134px;
+}
+
+.page_controls_to_addnote{
+  background-position: 50% -61px;
+}
+
+.page_controls_to_teacherref{
+  background-position: 50% 16px;
+}
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+.eCourse_header{
+  position: fixed;
+  z-index: 9999;
+}
+.eCourse_header:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+.thebook{
+  padding-top: 40px;
+}
+
+.course_controls{
+  background-color: rgba(0,0,0,.8);
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  color: rgba(207,207,207,1);
+  float: right;
+}
+
+.course_controls:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.course_controls li{
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0;
+  width: 39px;
+  height:40px;
+  background-image: url(../images/ecourse_nav_bar_icons_sprite.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+
+.course_controls li.course_controls_to_nav{
+  background-position: 50% 10px;
+}
+
+.course_controls li.course_controls_to_grades{
+  background-position: 50% -64px;
+}
+
+.course_controls li.course_controls_to_progress{
+  background-position: 50% -140px;
+}
+
+.course_controls li.course_controls_to_notes{
+  background-position: 50% -216px;
+}
+
+.course_controls li.course_controls_to_dictionary{
+  background-position: 50% -290px;
+}
+
+.course_controls li.course_controls_to_extras{
+  background-position: 50% -365px;
+}
+
+
+.course_controls li.course_controls_to_account{
+  background-position: 50% -440px;
+  float: left;
+}
+
+.page_controls h1{
+  font-size: 14px;
+}
+
+.page_controls>ul li{
+  padding: 0px;
+  width: 39px;
+  height: 40px;
+}
+
+.touch .page_controls>ul li:hover{
+  background-color: transparent; 
+  color: rgba(207,207,207,1);
+}
+
+.touch .page_controls>h1:hover{
+  background-color: transparent; 
+  color: rgba(200,211,69,1);
+}
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
+.eCourse_header{
+  position: fixed;
+  z-index: 9999;
+}
+.thebook{
+  padding-top: 70px;
+}
+
+.course_controls{
+  background-color: rgba(0,0,0,.8);
+  font-family: "myriad-pro-semi-condensed","Segoe UI","Trebuchet MS",sans-serif;
+  color: rgba(207,207,207,1);
+}
+
+.course_controls:after{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}/*clearfix*/
+
+.course_controls li{
+  font-weight: 600;
+  font-size: 12px;
+  padding: 8px 10px 8px 25px;
+  background-image: url(../images/ecourse_nav_bar_icons_sprite.png);
+  background-repeat: no-repeat;
+  background-size: 18px auto;
+}
+
+
+.course_controls li.course_controls_to_nav{
+  background-position: 3px 8px;
+}
+
+.course_controls li.course_controls_to_grades{
+  background-position: 3px -47px;
+}
+
+.course_controls li.course_controls_to_progress{
+  background-position: 3px -105px;
+}
+
+.course_controls li.course_controls_to_notes{
+  background-position: 3px -161px;
+}
+
+.course_controls li.course_controls_to_dictionary{
+  background-position: 3px -217px;
+}
+
+.course_controls li.course_controls_to_extras{
+  background-position: 3px -272px;
+}
+
+
+.course_controls li.course_controls_to_account{
+  background-position: 3px -328px;
+  float: right;
+}
+
+
+}
